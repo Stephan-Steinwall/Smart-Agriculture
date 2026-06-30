@@ -19,9 +19,9 @@ import { SensorReading } from './telemetry/entities/sensor-reading.entity';
       type: 'postgres',
       host: 'localhost',
       port: 5432,
-      username: 'root',
-      password: 'secretpassword',
-      database: 'smart_agri_dev',
+      username: 'postgres',
+      password: 'superuser',
+      database: 'smart_agri_db',
       entities: [User, Farm, Field, Device, SensorReading],
 
       // Auto-creates database tables based on your entities.
